@@ -29,16 +29,16 @@ font-family: Arial, Helvetica, sans-serif;padding-top: 130px;font-size: 60px;pad
         .projectp{
             color:black;margin-left: 50px;
         }
-  nav a {
+  a {
         color: white ;
       margin: 20px;
         font-size: 18px;
         transition: color 0.3s;
         text-decoration: none;
-
     }
- nav a:hover {
+ a:hover {
       color: deeppink;
+      transform: scale(1.1);
     }
     .nav1{
         text-align: center;
@@ -65,7 +65,7 @@ border-radius: 50px;
             margin-top: 20px;
         }
         .img1{
-            width: 290px;
+            width: 320px;
             height:350px;
             margin-left: 0px;
             margin-top: 0px;
@@ -75,7 +75,8 @@ border-radius: 50px;
              opacity: 0; 
       transform: translateY(50px); 
       animation: SlideDown 1.8s ease-out forwards;
-          border: 5px solid rgb(234, 89, 166);
+          border: 3px solid deeppink;
+          box-shadow: 0 0 20px deeppink;
         }
         @keyframes SlideDown {
       0% {
@@ -229,11 +230,12 @@ padding-left:30px ;
  border: 2px solid deeppink;
 }
  .aboutimg{
-    width: 340px;
+    width: 360px;
     height: 400px;
 margin-left: 80px;
     margin-top: 110px;
-    box-shadow: 0px 0px 15px deeppink;
+   border: 3px solid deeppink;
+   box-shadow: 0 0 15px deeppink;
  border-radius: 50%;
 }
 .aboutmaindiv{
